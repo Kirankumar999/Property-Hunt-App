@@ -1,11 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import A1 from '/public/images/properties/A1.jpg'
+import A1 from '@/public/images/properties/A1.jpg'
 import {FaBed, faBath, FaRulerCombined, FaMoneyBill, FaMapMarker} from 'react-icons/fa';
 
 const PropertyCard = ({propertyKey, property}) => {
-    const imagePath = '/public/images/properties/'
     const getRateDisplay = () => {
       console.log("property", property);
         const {rates} = property;
