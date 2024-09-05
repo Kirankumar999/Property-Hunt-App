@@ -20,7 +20,7 @@ const PropertyCard = ({propertyKey, property}) => {
     
     <div className="bg-white rounded-xl shadow-md relative" key={property.id}>
             <Image
-              src={A1}
+              src='/public/images/properties/a1.jpg'
               alt=""
               className="object-cover rounded-t-xl"
               width={0}
