@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import A1 from '@/assets/images/properties/A1.jpg'
+import A1 from '@/assets/images/properties/a1.jpg'
 
 const PropertyImage = ({image}) => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import A1 from '@/public/images/properties/A1.jpg'
+import A1 from '@/public/images/properties/a1.jpg'
 import {FaBed, faBath, FaRulerCombined, FaMoneyBill, FaMapMarker} from 'react-icons/fa';
 
 const PropertyCard = ({propertyKey, property}) => {
