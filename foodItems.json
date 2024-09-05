@@ -1,0 +1,38 @@
+[
+  {
+    "owner": "1",
+    "name": "Vada Paav",
+    "categoryType": "Fast Food",
+    "rates": {
+      "actualAmount": 20,
+      "promotionalDiscount": 15
+    },
+    "subCategoryType": "Veg",
+    "description": "Crispy Tasty Vada with fluffy Paav will make sure that you will never choose a burger again. With fried Mirchi and special lahsun chatni",
+    "images": "Product_Vada_Paav_New1.jpg"
+  },
+  {
+    "owner": "2",
+    "name": "Misal Paav",
+    "categoryType": "Fast Food",
+    "rates": {
+      "actualAmount": 20,
+      "promotionalDiscount": 15
+    },
+    "subCategoryType": "Veg",
+    "description": "Crispy Farsan with Tej Misal Rassa is a Delight when it comes to the taste which we give. With dahi and sweet",
+    "images": ["Product_Misal_Paav.jpg"]
+  },
+  {
+    "owner": "3",
+    "name": "Bhaji",
+    "categoryType": "Fast Food",
+    "rates": {
+      "actualAmount": 20,
+      "promotionalDiscount": 15
+    },
+    "subCategoryType": "Veg",
+    "description": "Crispy typical marthi Bhaji with high quality besan with Methi pudina and Mirchi can make your day.",
+    "images": ["Product_Misal_Paav.jpg"]
+  }
+]

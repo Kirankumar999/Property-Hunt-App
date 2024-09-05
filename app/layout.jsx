@@ -1,14 +1,21 @@
 import React from 'react';
 import '../assets/styles/globals.css'
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import AuthProvider from '@/components/authProvider';
 
 const MainLayout = ({children}) => {
   return (
-    <html lang='en'>
-        <body> 
-            <div>{children}</div>
-        </body>
-    </html>
-    
+    <AuthProvider>
+      <html lang='en'>
+          <body>
+            <Navbar />
+            <hr/>
+              <main>{children}</main>
+            <Footer />
+          </body>
+      </html>
+    </AuthProvider>
   )
 }
 
