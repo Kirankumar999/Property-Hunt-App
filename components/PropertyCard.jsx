@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import A1 from '@/public/images/properties/a1.jpg'
+import A1 from '@/assets/images/properties/a1.jpg'
 import {FaBed, faBath, FaRulerCombined, FaMoneyBill, FaMapMarker} from 'react-icons/fa';
 
 const PropertyCard = ({propertyKey, property}) => {
@@ -20,7 +20,7 @@ const PropertyCard = ({propertyKey, property}) => {
     
     <div className="bg-white rounded-xl shadow-md relative" key={property.id}>
             <Image
-              src='/public/images/properties/a1.jpg'
+              src={A1}
               alt=""
               className="object-cover rounded-t-xl"
               width={0}
